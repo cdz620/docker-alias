@@ -2,6 +2,15 @@
 # Docker alias and function
 # ------------------------------------
 
+# d for short
+alias d='docker'
+
+# dc for short
+alias dc='docker-compose'
+
+# dm for short
+alias dm='docker-machine'
+
 # Get latest container ID
 alias dl="docker ps -l -q"
 
